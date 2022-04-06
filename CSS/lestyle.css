@@ -1,0 +1,569 @@
+html{
+    background-image: url(ImgFond.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment:fixed;
+    height:100%;
+    width : auto;
+    margin : 0px;
+}
+.corp{
+    height:100%;
+    width : auto;
+    margin : 0px;
+}
+    /*   header  */
+.backHeader{
+    padding: 0px;
+    margin: 0px;
+    width : 100%;
+    font-family: "Century Gothic";
+
+}
+.header{
+    padding: 0px;
+    margin: 0px;
+    width : 100%;
+}
+.tableHeader{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 40px 40px 0 0 ;
+}
+.logoCase{
+     width: 300px;
+ }
+
+.rech {
+    position : relative;
+    height: 40px;
+    font-size: 20px;
+    width: 100%;
+    top: 25px;
+    border-radius: 25px 25px 25px 25px;
+
+
+}
+.search {
+
+    position: relative;
+    width: 40px;
+    height: 40px;
+
+}
+.placeSearch{
+    position : relative;
+    width: 40px;
+    height: 40px;
+    top: -18px;
+    right: -94%;
+}
+
+
+.log {
+    position: relative;
+    font-size: 20px;
+    left: 0px;
+    font-family: "Century Gothic";
+}
+.searchBarre{
+    width : 60%;
+}
+.panier{
+    width : 70px;
+    height: auto;
+}
+
+
+    /*   Body  vérif de sauvegarde */
+
+
+#sidebarBase{
+    color : white;
+    position: absolute;
+    top : 215px;
+    margin-top: 180px;
+    margin-bottom: 500px;
+    margin-left: 30px;
+    width : 300px;
+    height : 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50px 50px;
+    font-size: 15px;
+}
+.fourchettePrix{
+    text-align: center;
+    padding-top: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.box {
+    position: relative;
+    width: 185px;
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.prix {
+    position: absolute;
+    bottom: 40px;
+    left: 125px;
+    width: 65px;
+    height: auto;
+    color: azure;
+    font-size: 20px;
+
+}
+
+
+.cover {
+    width: 185px;
+    height: auto;
+    border-radius: 5px 5px 5px 5px;
+}
+.name{
+    position: relative;
+    padding-left : 0px;
+    font-size : 13px;
+    width : 200px;
+    height : 38px;
+    left:-5px;
+    text-overflow: ellipsis;
+    margin-top : 0px;
+}
+
+.tablePlaceImg{
+    margin-left : 380px;
+    padding-top : 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top : 20px;
+    margin-bottom : 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px 50px 50px 50px;
+    color : white;
+
+}
+.badge{
+    position: absolute;
+
+}
+.imgBadge{
+    position: absolute;
+    bottom: 270px;
+    left: 20px;
+    width: 25px;
+    height: auto;
+
+}
+.reset{
+    position : absolute;
+    bottom : 10px;
+}
+.recherche{
+position : absolute;
+bottom : 10px;
+left : 35px;
+}
+    /*  Inscription  */
+
+.divInscription{
+    position : relative;
+    left : 35%;
+    width : 30%;
+    height : auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px 50px 50px 50px;
+    margin-top : 50px;
+    margin-bottom : 15%;
+    color : white;
+    min-width: 190px;
+}
+.tableInscription{
+    text-align : right;
+    color : white;
+    margin-bottom : 50px;
+    min-width: 190px;
+}
+.tdInscription{
+    padding-bottom: 5px;
+}
+
+/*  Connexion  */
+
+.divConnexion{
+    position : relative;
+    left : 35%;
+    width : 30%;
+    height : auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px 50px 50px 50px;
+    margin-top : 50px;
+    margin-bottom: 17%;
+    color : white;
+    min-width: 190px
+}
+.tableConnexion{
+    text-align : right;
+    color : white;
+    margin-bottom : 50px;
+
+}
+.tdConnexion{
+    padding-bottom: 5px;
+}
+.redirection{
+    font-size : 15px;
+}
+    /*  Page Game   */
+
+.tablePageGame{
+    margin : 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px 50px 50px 50px;
+    color : white;
+    font-size: 20px;
+}
+
+.presentation{
+    width : 400px;
+    height: auto;
+    border-radius: 10px;
+    padding-left : 20px;
+}
+.boutonAcheter{
+    height : 50px;
+    width : auto;
+
+}
+.boutonAcheter:hover{
+    cursor: pointer;
+}
+.titrePageGame{
+    font-size : 40px;
+}
+.prixPageGame{
+    font-size : 40px;
+}
+    /*  game-add  */
+
+.divGameAdd{
+    position : relative;
+    left : 35%;
+    width : 30%;
+    height : auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px 50px 50px 50px;
+    margin-top : 50px;
+    margin-bottom : 7%;
+    color : white;
+}
+.tableGameAdd{
+    text-align : right;
+    color : white;
+    margin-bottom : 50px;
+    padding-left : 0px;
+}
+.tdGameAdd{
+    padding-bottom: 5px;
+}
+#DescriptionG{
+    resize :none;
+    height : 150px;
+    width : 320px;
+    vertical-align: top;
+}
+
+    /*  Panier  */
+.tablePanier{
+    float : left;
+    width : 70%;
+    left : 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px 25px 25px 25px;
+    color : white;
+    font-size : 20px;
+    margin-left : 10px;
+    margin-bottom :30px;
+}
+.prixPanier{
+    font-size : 40px;
+}
+
+.tableAcheter{
+    float : right;
+    width : 20%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px 25px 25px 25px;
+    color : white;
+    font-size : 20px;
+    margin-bottom: 14%;
+    margin-right : 10px;
+    margin-top : 50px;
+}
+.tdAcheter{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.titrePanierVide{
+    color : white;
+    margin-bottom : 30%;
+}
+.titrePanier{
+    color : white;
+}
+    /*  footer  */
+.footer{
+    position : relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    width : 100%;
+    height : 70px;
+    text-align : center;
+    border-radius: 50px 50px 50px 50px;
+    bottom : 2px;
+    margin-top : 50px;
+}
+.tdFooter{
+    width : 33%;
+}
+
+.placeFooter{
+    position : absolute;
+    bottom : 2px;
+    width : 100%;
+}
+a{
+    color:#0357a7;
+    font-size:20px;
+    text-decoration:none;
+    text-align: center;
+    outline: none;
+    padding: 2px 1px 0;
+}
+.footerLinks{
+    text-decoration: none;
+    font-family: "Century Gothic";
+    text-underline: none;
+}
+.reseauxSociaux{
+
+    position : relative;
+    top : 15px;
+
+}
+.tdReseauxSociaux{
+    width : 8.25%;
+
+}
+.divReseauxSociaux {
+    height:80px;
+    display : inline-block;
+    align-items : center;
+}
+.divReseauxSociaux img:hover {
+    width:55px;
+    height:55px;
+}
+    /*  Users   */
+
+.bonjourUsers{
+    color: #FFFFFF;
+}
+
+.divUsers{
+    text-align : center;
+    position : relative;
+    left : 35%;
+    width : 30%;
+    height : auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50px 50px 50px 50px;
+    margin-top : 50px;
+    margin-bottom: 5%;
+    color : white;
+    min-width : 372px;
+}
+
+.tableUsers{
+
+    color : white;
+    margin-bottom : 50px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+
+}
+.tdUsers{
+    width : 100%;
+
+    padding-top: 5px;
+    padding-bottom : 5px;
+}
+.divDernierAchat{
+    text-align : center;
+    position : relative;
+    left : 25%;
+    width : 50%;
+    height : auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50px 50px 50px 50px;
+    margin-top : 50px;
+    margin-bottom: 5%;
+    color : white;
+    min-width : 372px;
+}
+.tableDerniersAchat{
+    color : white;
+    width : 100%;
+    margin-bottom : 50px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+    /*  list-game   */
+
+.tableList_game{
+
+    margin-top : 30px;
+    background-color: rgba(0, 0, 0, 0.95);
+    color : white;
+    font-size: 15px;
+
+}
+
+.tdList_game {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    /*  list-Users  */
+.tablePanelUsersAdmin{
+    border : 1px solid;
+    margin-top : 30px;
+    background-color: rgba(0, 0, 0, 0.95);
+    color : white;
+    font-size: 15px;
+    width : 50%;
+}
+.tablePanelAchatUsersAdmin{
+    border : 1px solid;
+    margin-top : 30px;
+    background-color: rgba(0, 0, 0, 0.95);
+    color : white;
+    font-size: 15px;
+    width : 50%;
+
+}
+
+.tdPanelUsersAdmin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.derniersAcchatAnnonce{
+    color : white;
+}
+    /*  Validation Commande */
+
+.infosComplementCommande{
+    text-align : center;
+    position : relative;
+    left : 26%;
+    width : 50%;
+    height : auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50px 50px 50px 50px;
+    margin-top : 50px;
+    margin-bottom: 5%;
+    color : white;
+    min-width : 372px;
+}
+.genre{
+    margin-bottom : 15px;
+}
+.infosPersonelle{
+    margin-bottom : 15px;
+}
+.infosBancaire{
+    margin-bottom : 15px;
+}
+
+.infosIn {
+    margin-bottom : 5px;
+}
+
+.infosInEXP {
+    margin-bottom : 5px;
+    width : 4%;
+}
+
+    /*  derniere facture */
+
+.A4{
+    margin-top : 30px;
+    position : relative;
+    width : 210mm;
+    height : 297mm;
+    background-color: white;
+    left : 30%;
+}
+
+.placeLogoFacture{
+    position : absolute;
+    text-align : left;
+    width : 30%;
+    left : 5px;
+    top : 120px;
+}
+
+.infosSite{
+    text-align: right;
+    position : absolute;
+    top : 100px;
+    right :5px;
+}
+.presCityGame{
+    text-align: left;
+    position : absolute;
+    top : 250px;
+    left :5px;
+}
+
+
+.infosClient{
+    text-align: left;
+    position : absolute;
+    top : 300px;
+    left :5px;
+}
+
+.confirmationCommande{
+    position : absolute;
+    top : 400px;
+    left : 30px;
+}
+
+.divUsersFacture{
+    text-align : left;
+    position : absolute;
+    width : 100%;
+    height : auto;
+    top:500px;
+    left : 5px
+}
+.tableUsersFacture{
+
+
+}
+
+.coverFacture{
+    width: 85px;
+    height: auto;
+    border-radius: 5px 5px 5px 5px;
+}
+.prixFacture{
+    font-size : 20px;
+}
